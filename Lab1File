@@ -1,7 +1,9 @@
-
-age = input("which year you born?:")
-calculate = 2022 - age
-print(calculate)
+try:
+   age = input("which year you born?:")
+   calculate = 2022 - age
+   print(calculate)
+except TypeError:
+   print("please enter a int")
 def helloWorld():
     print('Hello World')
 helloWorld()
