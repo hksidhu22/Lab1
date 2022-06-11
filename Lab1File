@@ -4,6 +4,4 @@ try:
    print(calculate)
 except TypeError:
    print("please enter a int")
-def helloWorld():
-    print('Hello World')
-helloWorld()
+
